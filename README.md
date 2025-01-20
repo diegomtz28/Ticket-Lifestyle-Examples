@@ -37,7 +37,7 @@ __Step 1 Create the Ticket in the OS-Ticket__
      - User Name: JohnDoe
      - Vm Name: AppServer-01
      - Issue: The user forgot their password and needs a reset
-     - __Priority__: Medium
+    - __Priority__: Medium
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
