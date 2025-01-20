@@ -38,9 +38,10 @@ __Step 1: Create the Ticket in the OS-Ticket__
      - Vm Name: AppServer-01
      - Issue: The user forgot their password and needs a reset
     - __Priority__: Medium
+
 __Step 2: Reset Password via Azure Portal__
 1. __Log in to Azure Portal__:
-   - Go to Azure Portal and Log in.
+   - Go to Azure Portal and Login.
 2. __Find the VM__:
    - Navigate to Virtual Machines and select AppServer-01
 3. __Access Reset Password Feature__:
@@ -50,6 +51,8 @@ __Step 2: Reset Password via Azure Portal__
    - Click __Run__ to execute the command
 4. __Confirm Success__:
    - Notify the user of the new password and request they log in to verify success
+
+
 __Step 3: Update Ticket__
 1. Resolution Details:
    - Document the steps taken:
