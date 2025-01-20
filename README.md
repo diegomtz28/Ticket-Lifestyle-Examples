@@ -26,7 +26,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 
-<h1>__Issue 1: Password change request__</h1>
+<h3>Issue 1: Password change request</h3>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
