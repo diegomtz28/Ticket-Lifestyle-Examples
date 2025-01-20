@@ -58,7 +58,7 @@ __Step 3: Update Ticket__
    - Document the steps taken:
         - Reset the password using Azure Run Command
         - Provide the new credentials to the user
-   2. __Close the ticket__
+ 2. __Close the ticket__
       - Mark the ticket as resolved and inform the user
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
