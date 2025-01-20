@@ -54,7 +54,7 @@ __Step 2: Reset Password via Azure Portal__
 
 
 __Step 3: Update Ticket__
-1. Resolution Details:
+1. __Resolution Details__:
    - Document the steps taken:
         - Reset the password using Azure Run Command
         - Provide the new credentials to the user
@@ -63,11 +63,7 @@ __Step 3: Update Ticket__
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
+<h3>Issue 2: Enabling Permissions for a user</h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
