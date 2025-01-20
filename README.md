@@ -79,7 +79,20 @@ __Step 1: Create the ticket in OS Ticket__
         - VM: FileServer-01
         - Folder:\\FileServer-01\SharedDocs
       - __Priority__: Low
-      - 
+
+__Step 2: Update Permissions in Azure VM__
+1. __Log in to Azure Portal__:
+   - Access the Azure Portal
+2. __Find the VM__:
+   -Navigate to the Virtual Machines and Select FileServer-01
+3. __Connect to the VM__:
+   - Open __RDP__ or Azure Bastion to connect to the VM.
+4. __Modify Folder Permissions__:
+   - Locate the folder (SharedDocs) on the VM.
+   - Right-click the folder and select __Properties > Security > Edit__
+   - Add the user JaneSmith and assign appropriate permissions (Read/Write)
+   - Save Changes
+   
 
 
 
