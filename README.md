@@ -28,7 +28,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h3>Issue 1: Password change request</h3>
 
-__Step 1 Create the Ticket in the OS-Ticket__ 
+__Step 1: Create the Ticket in the OS-Ticket__ 
 1. Log in to OS Ticket:
    - Navigate to the OS Ticket dashboard and create a new ticket
 2. Ticket Details:
