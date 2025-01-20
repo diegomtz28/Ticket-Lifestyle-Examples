@@ -28,6 +28,8 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h3>Issue 1: Password change request</h3>
 
+__Scenario:__ A user cannot log into their Azure VM and requests a password reset. 
+
 __Step 1: Create the Ticket in the OS-Ticket__ 
 1. Log in to OS Ticket:
    - Navigate to the OS Ticket dashboard and create a new ticket
@@ -64,9 +66,25 @@ __Step 3: Update Ticket__
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h3>Issue 2: Enabling Permissions for a user</h3>
-<p>
+
+__Scenario:__ A user needs permission to access a shared folder on an Azure VM.
+
+__Step 1: Create the ticket in OS Ticket__ 
+   1. __Log in to OS Ticket__
+      - Create a new ticket
+   2. __Ticket Details:__
+      - __Subject:__ "Enable User Permissions on Shared Folder"
+      - __Description__:
+        - USer: JaneSmith
+        - VM: FileServer-01
+        - Folder:\\FileServer-01\SharedDocs
+      - __Priority__: Low
+      - 
+
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
