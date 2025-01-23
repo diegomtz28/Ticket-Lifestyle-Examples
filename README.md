@@ -52,36 +52,51 @@ __Step to Resolve__
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h3>Issue 2: Issues with Printer</h3>
+<h3>Issue 2: Printer Connection Issue</h3>
 
 __Scenario:__ A user reports that they are unable to connect to the office printer and cannot print any documents.
 
 __Step to Resolve:__ 
    1. __Check Printer Status:__
       - Verify that the printer is powered on, online, and connected to the network
+      - Check for any error messages or warnings on the printer's display panel
    2. __Verify User's Device Configuration:__
-      - Check the user's device to ensure the printer is installed and set the default printer. If not, add the printer using its IP address or hostname
+      - Check the user's device to ensure the printer is installed and set the default printer
+      - Reinstall the printer driver if it is missing our outdated
    3. __Run Troubleshooter:__
       - Run the printer troubleshooter on the user's device to identify and resolve common connectivity issues
+      - Ensure the correct IP address or hostname is configured in the printer settings
    4. __Test Printing:__
-      - Send a test print job to ensure the user can print successfully, If unsuccessful, escalate to the network or hardware team 
+      - Send a test print job to ensure the user can print successfully, If unsuccessful, escalate to the network or hardware team
+  5. __Follow Up:__
+     - Confirm with the user that printing is restored. Provide any necessary documentation or tips for future issues (how to reconnect to a network printer)
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h3>Software Installation Request</h3>
+<h3>Issue 3: Software Installation Request</h3>
 
 __Scenario:__ A user requests the installation of a specific software application on their workstation.
 
 __Steps to resolve:__
 1. __Validate Request:__
    - Confirm that the requested software is approved and licensed for use in the organization
+   - Verify that there are sufficient licenses available for deployment
 2. __Check System Requirements:__
    - Ensure the user's workstation meets the software's minimum hardware and OS requirements
+   - Check for any conflicting software that needs to be removed before installation
 3. __Install Software:__
    - Deploy the software via remote tools or manual installation, depending on organizational policies
+   - Apply any unnecessary updated or patches after installation
 4. __Verify Functionality:__
-   Launch the software and perform a quick test to confirm it works as intended. Provide the user with the necessary usage documentation
+   - Launch the software and perform a quick test to confirm it works as intended. Provide the user with the necessary usage documentation
+   - Verify with the user that it meets their requirements
+5. __Provide Documentation:__
+   - Share any available user guides or training materials with the user
+   - Offer a quick overview of key features if needed
+6. __Close the Ticket:__
+   - Confirm with a user that the software is functioning properly and document the steps taken to complete installation
+   
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
