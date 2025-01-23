@@ -130,3 +130,5 @@ __Steps to resolve:__
    - Confirm with the user that the issue is resolved and document the solution in the ticket
   
    **The user permissions settings: screen in active directory or the shared drives access control settings, showing where to add/remove permissions**
+
+ <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
