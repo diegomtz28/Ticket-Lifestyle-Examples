@@ -48,6 +48,8 @@ __Step to Resolve__
    - Instruct them to update any stored credentials on other devices, like email clients or mobile apps
 6. __Document the Resolution:__
    - Log the ticket with details of the action taken (password reset date, verification steps) and close the ticket.
+
+     **A screenshot of the user profile page in your admin portal (active directory or osticket) showing the option to reset password**
    
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -70,6 +72,8 @@ __Step to Resolve:__
       - Send a test print job to ensure the user can print successfully, If unsuccessful, escalate to the network or hardware team
   5. __Follow Up:__
      - Confirm with the user that printing is restored. Provide any necessary documentation or tips for future issues (how to reconnect to a network printer)
+    
+       **The device and printer settings on windows or the printer setup interface on macOS sowing the list of available printers**
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -96,6 +100,8 @@ __Steps to resolve:__
    - Offer a quick overview of key features if needed
 6. __Close the Ticket:__
    - Confirm with a user that the software is functioning properly and document the steps taken to complete installation
+  
+     **A screenshot of your software managment tool with the requested software highlighted. if checking system requirements show a screenshot of the system properties window.**
    
 
 
@@ -122,3 +128,5 @@ __Steps to resolve:__
    - If the issue persists, escalate to the file managment or network team with detailed notes on the troubleshooting steps taken
 6. __Close the Ticket:__
    - Confirm with the user that the issue is resolved and document the solution in the ticket
+  
+   **The user permissions settings: screen in active directory or the shared drives access control settings, showing where to add/remove permissions**
