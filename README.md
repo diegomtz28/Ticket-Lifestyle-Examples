@@ -16,12 +16,12 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 - Windows 10</b> (21H2)
 
-<h2>Ticket Lifecycle Stages</h2>
+<h2>Tickets</h2>
 
 - Password Change Request
-- Enabling Permission for a user
-- 
-- 
+- Printer Connection Issue
+- Software Installation Request
+- Access Denied to Shared Drive
 
 <h2>Lifecycle Stages</h2>
 
@@ -87,7 +87,7 @@ __Steps to resolve:__
    - Check for any conflicting software that needs to be removed before installation
 3. __Install Software:__
    - Deploy the software via remote tools or manual installation, depending on organizational policies
-   - Apply any unnecessary updated or patches after installation
+   - Apply any unnecessary updates or patches after installation
 4. __Verify Functionality:__
    - Launch the software and perform a quick test to confirm it works as intended. Provide the user with the necessary usage documentation
    - Verify with the user that it meets their requirements
@@ -100,8 +100,25 @@ __Steps to resolve:__
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+<h3>Issue 4: Access Denied to Shared Drive</h3>
+
+__Scenario:__ A user reports they are unable to access a shared drive after being assigned to a new team.
+
+__Steps to resolve:__
+1. __Verify User Group Memberships:__
+   - Confirm the user's current role and team assignment with their manager
+   - Check if the user is part of the correct Active Directory (AD) group or permission level associated with the shared drive
+2. __Update Permissions:__
+   - If necessary, add the user to the appropriate AD group or assign direct permission through the shared drive settings
+   - Document any permission changes made in the ticket for auditing purposes
+3. __Refresh Uder Credentials:__
+   - Instruct the user to log out and log back in to refresh their permissions
+   - If using cached credentials, clear them and ensure the system pulls the updated permissions
+4. __Test Access:__
+   - Have the user attempt to access the shared drive
+   - Provide a walkthrough on accessing the drive if needed
+5. __Escalate if Necessary:__
+   - If the issue persists, escalate to the file managment or network team with detailed notes on the troubleshooting steps taken
+6. __Close the Ticket:__
+   - Confirm with the user that the issue is resolved and document the solution in the ticket
