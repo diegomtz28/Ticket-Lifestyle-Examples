@@ -69,12 +69,21 @@ __Step to Resolve:__
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Software Installation Request</h3>
 
-<p>
+__Scenario:__ A user requests the installation of a specific software application on their workstation.
+
+__Steps to resolve:__
+1. __Validate Request:__
+    Confirm that the requested software is approved and licensed for use in the organization
+2. __Check System Requirements:__
+   Ensure the user's workstation meets the software's minimum hardware and OS requirements
+3. __Install Software:__
+   Deploy the software via remote tools or manual installation, depending on organizational policies
+4. __Verify Functionality:__
+   Launch the software and perform a quick test to confirm it works as intended. Provide the user with the necessary usage documentation
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
