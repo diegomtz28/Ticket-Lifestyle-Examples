@@ -28,72 +28,43 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h3>Issue 1: Password change request</h3>
 
-__Scenario:__ A user cannot log into their Azure VM and requests a password reset. 
+__Scenario:__ A user requests assistance in changing their login password for a company system or application.
 
-__Step 1: Create the Ticket in the OS-Ticket__ 
-1. Log in to OS Ticket:
-   - Navigate to the OS Ticket dashboard and create a new ticket
-2. Ticket Details:
-   - __Subject__: "Password Reset Request for Azure VM"
-   - __Description__:
-     - User Name: JohnDoe
-     - Vm Name: AppServer-01
-     - Issue: The user forgot their password and needs a reset
-    - __Priority__: Medium
-
-__Step 2: Reset Password via Azure Portal__
-1. __Log in to Azure Portal__:
-   - Go to Azure Portal and Login.
-2. __Find the VM__:
-   - Navigate to Virtual Machines and select AppServer-01
-3. __Access Reset Password Feature__:
-   - Go to __Operations > Run Command__
-   - Select the __Reset Passsword__ option
-   - Enter the username (JohnDoe) and a new password
-   - Click __Run__ to execute the command
-4. __Confirm Success__:
-   - Notify the user of the new password and request they log in to verify success
-
-
-__Step 3: Update Ticket__
-1. __Resolution Details__:
-   - Document the steps taken:
-        - Reset the password using Azure Run Command
-        - Provide the new credentials to the user
- 2. __Close the ticket__
-      - Mark the ticket as resolved and inform the user
+__Step to Resolve__ 
+1. __Verify User Identity__
+  - Confirm the identity of the user by asking for security verification (answering security questions or confirming details like employee ID or email).
+2. __Access User Account Settings:__
+   - Navigate to the user management (Active Directory or the specific application's admin console)
+   - Locate the user's profile
+3. __Reset Password or Provide Password Change Option:__
+   - if the system allows for domain resets:
+        - Reset the password to a temporary one and provide it to the user securely
+   - If the user can change the password themselves:
+        -  Guide them to the password reset functionality(via the Forgot Password link)
+4. __Enforce Security Policies:__
+   - Ensure the new password complies with the organization's policy
+5. __Test and Verify:__
+   - Have the user log in with the new password to confirm access
+   - Instruct them to update any stored credentials on other devices, like email clients or mobile apps
+6. __Document the Resolution:__
+   - Log the ticket with details of the action taken (password reset date, verification steps) and close the ticket.
+   
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h3>Issue 2: Enabling Permissions for a user</h3>
+<h3>Issue 2: Issues with Printer</h3>
 
-__Scenario:__ A user needs permission to access a shared folder on an Azure VM.
+__Scenario:__ A user reports that they are unable to connect to the office printer and cannot print any documents.
 
-__Step 1: Create the ticket in OS Ticket__ 
-   1. __Log in to OS Ticket__
-      - Create a new ticket
-   2. __Ticket Details:__
-      - __Subject:__ "Enable User Permissions on Shared Folder"
-      - __Description__:
-        - USer: JaneSmith
-        - VM: FileServer-01
-        - Folder:\\FileServer-01\SharedDocs
-      - __Priority__: Low
-
-__Step 2: Update Permissions in Azure VM__
-1. __Log in to Azure Portal__:
-   - Access the Azure Portal
-2. __Find the VM__:
-   -Navigate to the Virtual Machines and Select FileServer-01
-3. __Connect to the VM__:
-   - Open __RDP__ or Azure Bastion to connect to the VM.
-4. __Modify Folder Permissions__:
-   - Locate the folder (SharedDocs) on the VM.
-   - Right-click the folder and select __Properties > Security > Edit__
-   - Add the user JaneSmith and assign appropriate permissions (Read/Write)
-   - Save Changes
-   
-
+__Step to Resolve:__ 
+   1. __Check Printer Status:__
+      - Verify that the printer is powered on, online, and connected to the network
+   2. __Verify User's Device Configuration:__
+      - Check the user's device to ensure the printer is installed and set the default printer. If not, add the printer using its IP address or hostname
+   3. __Run Troubleshooter:__
+      - Run the printer troubleshooter on the user's device to identify and resolve common connectivity issues
+   4. __Test Printing:__
+      - Send a test print job to ensure the user can print successfully, If unsuccessful, escalate to the network or hardware team 
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
