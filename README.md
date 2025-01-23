@@ -75,11 +75,11 @@ __Scenario:__ A user requests the installation of a specific software applicatio
 
 __Steps to resolve:__
 1. __Validate Request:__
-    Confirm that the requested software is approved and licensed for use in the organization
+   - Confirm that the requested software is approved and licensed for use in the organization
 2. __Check System Requirements:__
-   Ensure the user's workstation meets the software's minimum hardware and OS requirements
+   - Ensure the user's workstation meets the software's minimum hardware and OS requirements
 3. __Install Software:__
-   Deploy the software via remote tools or manual installation, depending on organizational policies
+   - Deploy the software via remote tools or manual installation, depending on organizational policies
 4. __Verify Functionality:__
    Launch the software and perform a quick test to confirm it works as intended. Provide the user with the necessary usage documentation
 
