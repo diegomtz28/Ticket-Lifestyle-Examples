@@ -52,7 +52,7 @@ __Step to Resolve__
      **A screenshot of the user profile page in your admin portal (active directory or osticket) showing the option to reset password**
    
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <h3>Issue 2: Printer Connection Issue</h3>
 
@@ -76,7 +76,7 @@ __Step to Resolve:__
        **The device and printer settings on windows or the printer setup interface on macOS sowing the list of available printers**
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <h3>Issue 3: Software Installation Request</h3>
 
@@ -105,7 +105,7 @@ __Steps to resolve:__
    
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <h3>Issue 4: Access Denied to Shared Drive</h3>
 
@@ -131,4 +131,4 @@ __Steps to resolve:__
   
    **The user permissions settings: screen in active directory or the shared drives access control settings, showing where to add/remove permissions**
 
- <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
